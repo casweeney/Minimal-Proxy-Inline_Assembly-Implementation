@@ -1,7 +1,7 @@
 import { ethers } from "hardhat";
 
 async function main() {
-    const STOREADDRESS = "0x6bA34B93E93808f1aEB8C26AF8a1317860c2fce5";
+    const STOREADDRESS = "0xcc574bb5b25207E284fCaE5b3D70f50F167B951F";
     const Store = await ethers.getContractFactory("Store");
     // const store = Store.attach(STOREADDRESS);
 

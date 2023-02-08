@@ -19,6 +19,9 @@ async function main() {
 
   const currentIndex = await minimalProx.getCurrentIndex();
   console.log("Current index: ", currentIndex);
+
+  const checkIsCloned = await minimalProx.isClone(clonedAddress, store.address);
+  console.log("Is cloned? ", checkIsCloned);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
